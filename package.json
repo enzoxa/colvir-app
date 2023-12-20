@@ -2,7 +2,7 @@
   "name": "colvir-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://enzoxa.github.io/colvir-app",
+  "homepage": "https://enzoxa.github.io/colvir-app/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
