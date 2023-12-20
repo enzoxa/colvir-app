@@ -1,0 +1,118 @@
+.workArea {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  font-family: var(--font-family);
+  background-color: var(--color-white);
+
+  transition: all 0.2s;
+}
+
+.workAreaDisabled {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+
+  width: 100%;
+  
+  min-width: 1200px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  background-color: var(--color-white);
+  z-index: 1;
+
+  transition: all 0.2s;
+}
+
+.disable0 {
+  margin-left: 448px;
+}
+
+.disable1 {
+  margin-left: 400px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 0px rgba(66, 73, 82, 0.10);
+  position: relative;
+}
+
+.headerLeft {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.headerLeftPath {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  gap: 6px;
+  color: var(--color-dark);
+  opacity: 0.5;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-rg);
+  line-height: var(--line-height-sm);
+}
+
+.headerLeftTitle {
+  color: var(--color-blue);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-lt);
+  line-height: var(--line-height-xl);
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  max-height: 32px;
+  gap: 16px;
+}
+
+.headerRightSearchContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px
+}
+
+.SearchInput {
+  background-color: var(--color-white-gray);
+  border: none;
+  border-radius: 16px;
+  height: 32px;
+  width: 248px;
+  padding-left: 16px;  
+}
+
+.task {
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.disableLayer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-white);
+  opacity: 0.8;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  z-index: 3;
+
+}

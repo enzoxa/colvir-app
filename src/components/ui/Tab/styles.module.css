@@ -1,0 +1,42 @@
+
+.tabs {
+    display: flex;
+    flex-direction: column;     
+    height: 100%;
+    width: 100%;
+}
+
+.tablist {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--color-white-second);
+    gap: 10px;
+    border-radius: 8px;
+    padding: 2px;
+    margin-bottom: 18px;
+    
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weiht-rg);
+    line-height: var(--line-height-md);
+}
+
+.tabcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;    
+}
+
+.tabListItem {    
+    color: var(--color-dark); 
+    padding: 6px 16px;
+    border-radius: 6px;    
+    transition: all 0.2s;
+}
+
+.tabListActive {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    transition: all 0.2s;
+}

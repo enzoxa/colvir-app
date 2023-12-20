@@ -1,0 +1,55 @@
+.formDetail{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 24px;    
+}
+
+.headerContainer{    
+    margin-bottom: 24px;
+
+    font-size: var(--font-size-lg2);
+    font-weight: var(--font-height-lg2);
+}
+
+.label {
+    margin-bottom: 6px;
+}
+.labelInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.labelBold {
+    color: var(--color-black);
+    font-weight: var(--font-weight-md);
+    margin-bottom: 16px;
+    margin-top: 24px;
+  }
+
+.valDate{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.vals{
+width: 90%;
+}
+.datesFromTo{
+    display: flex;
+    flex-direction: column;    
+}
+.datesFromToInput{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.trfPlan {
+    display: flex;
+    flex-direction: column;
+}

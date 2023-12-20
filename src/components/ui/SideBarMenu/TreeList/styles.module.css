@@ -1,0 +1,28 @@
+.TreeLabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 9px 16px;
+    text-align: left;
+    max-width: 320px;     
+}
+
+.TreeLabel:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    cursor: pointer;    
+}
+
+.TreeLabelContainer {
+    display: flex;
+    gap: 8px;       
+}
+
+.TreeLabelContainer > a {
+    color: var(--color-white);
+    font-weight: var(--font-weight-rg);
+}
+
+.TreeLabelHover{
+    position: absolute;
+}

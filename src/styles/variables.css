@@ -1,0 +1,45 @@
+:root {
+    /* Colors */
+    --color-dark: #041526;
+    --color-white: #FFFFFF;
+    --color-white-gray: #F6F8FA;
+    --color-gray: #424952;
+    --color-gray-second: #868B95;
+    --color-gray-third: #E3E8EC;
+    --color-pink: #F05B82;
+    --color-red: #FA506F;
+    --color-blue: #1173DA;
+    --color-green: #4ED09A;
+    --color-yellow: #F2C935;
+    --color-light-blue: #A4E2FF;
+    --color-light-blue-second: #A4E2FF;
+    /* -- Specific colors */
+    --color-cancel: rgba(17, 115, 218, 0.05);
+
+
+    /* Fonts */
+    /* --Font-family */
+    --font-family: Roboto;
+    /* --Font-Size */
+    --font-size-xl: 24px;
+    --font-size-lg2: 20px;
+    --font-size-lg: 16px;
+    --font-size-md: 14px;    
+    --font-size-sm: 12px;
+    --font-size-xs: 10px;
+    /* --Font-weight */
+    --font-weight-xl: 700; /*Extra Large*/
+    --font-weight-lg: 600; /*Large*/
+    --font-weight-md: 500; /*Medium*/
+    --font-weight-rg: 400; /*Regular*/
+    --font-weight-lt: 300; /*Light*/
+    /* --Line-height */
+    --line-height-xl: 28px;    
+    --line-height-lg: 24px;
+    --line-height-lg2: 23px;
+    --line-height-md: 16px;
+    --line-height-sm: 14px;
+    --line-height-xs: 12px;
+    
+
+}

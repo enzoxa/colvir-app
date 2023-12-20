@@ -1,0 +1,163 @@
+.sideBarWrapper {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    background: linear-gradient(180deg, var(--color-blue) 0%, #A4E2FF 100%);
+    border-radius: 12px;
+    /* justify-content: space-between; */
+    min-height: 500px;
+    padding: 16px;
+
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 0 0 0 68px;
+    gap: 20px;
+    max-width: 320px;
+
+    color: var(--color-white);    
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-rg);
+    line-height: var(--line-height-lg);
+}
+
+.menuWindows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 48px;
+}
+
+.closed {
+    max-width: 72px;
+    margin: 8px 0px 8px 8px;
+}
+
+.open {
+    display: flex;
+    position: fixed;    
+
+    width: 100%;        
+    height: 100%;
+    border-radius: 0;
+    padding: 24px;    
+}
+
+.open .colvir {
+    padding-left: 4px;
+}
+
+.open .buttonContainer {
+    padding-bottom: 16px;
+}
+
+.open .count {
+    left: 24px;
+}
+
+.people {
+    opacity: 0.10;
+    background: #041526;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.people:hover {
+    cursor: pointer;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.buttonContainer>:hover {
+    cursor: pointer;
+}
+
+.buttonItem {
+    position: relative;
+}
+.buttonItemOpen {
+    display: flex;
+    position: relative;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-white);
+    width: 40px;
+    height: 40px;    
+    
+    border-radius: 8px;
+}
+
+.count {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    background: var(--color-pink);
+    border-radius: 8px;
+    color: var(--color-white);
+
+    position: absolute;
+    top: -8px;
+    right: 0;
+
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-xl);
+    line-height: var(--line-height-xs);
+}
+
+.searchContainer{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;    
+}
+
+.searchInputClearButton{
+    position: absolute;
+    margin: auto;
+    right: 8px;
+}
+
+.searchInputClearButton:hover{
+    cursor: pointer;
+}
+
+.searchInput{
+    border-radius: 16px;
+    color: var(--color-white);
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 320px;
+    height: 32px;
+    padding: 8px 30px 8px 16px;
+    border: none;
+    
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-rg);
+    line-height: var(--line-height-md);    
+}
+
+.searchInput::placeholder {
+    color: var(--color-white);
+    opacity: 0.5;
+}
+
+.searchInput:focus{
+    outline: none;
+}
